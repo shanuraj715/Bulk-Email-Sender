@@ -1,0 +1,17 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteBase /
+RewriteRule ^page/([0-9a-zA-Z+]) pages.php?page=$1 [NC,L]
+
+RewriteRule ^start start_now.php [NC,L]
+RewriteRule ^login login.php [NC,L]
+RewriteRule ^send send_email.php [NC,L]
+RewriteRule ^confirm pages/account-verify.php [NC,L]
+
+# for API pages
+RewriteRule ^api/key api/get_key.php [NC,L]
+
+
+DirectoryIndex index.php
+Options -Indexes

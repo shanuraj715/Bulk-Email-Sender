@@ -1,0 +1,49 @@
+
+
+.noselect {
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Old versions of Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none; /* Non-prefixed version, currently supported by Chrome, Opera and Firefox */
+}
+
+.entry-content{
+	padding: 10px;
+	background: var(--theme-clr-bg);
+}
+
+.pp_heading1{
+	color: var(--theme-clr-red);
+	cursor: pointer;
+	text-align: center;
+}
+
+.pp_text{
+	color: rgba(47, 53, 66,1.0);
+	font-size: 18px;
+	cursor: default;
+}
+
+.pp_heading2{
+	color: var(--theme-clr-blue);
+	cursor: pointer;
+}
+
+.pp_u_list{
+	list-style: circle;
+}
+
+.pp_list{
+	color: var(--theme-clr-red);
+}
+
+.pp_link{
+	color: var(--theme-clr-dark-yellow);
+	text-decoration: none;
+}
+
+.pp_link:hover{
+	color: var(--theme-clr-red);
+}

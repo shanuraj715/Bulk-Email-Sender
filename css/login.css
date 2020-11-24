@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
+
+
+/* css for login page tabs.
+this css is got from jQuery UI
+
+do not modify this css*/
+
+.ui-tabs-vertical {
+	width: 45em;
+}
+.ui-tabs-vertical .ui-tabs-nav {
+	padding: .2em .2em .2em .2em;
+	float: left;
+	width: 10em;
+}
+.ui-tabs-vertical .ui-tabs-nav li {
+	clear: left;
+	width: 100%;
+	border-bottom-width: 1px !important;
+	border-right-width: 1px !important;
+}
+.ui-tabs-vertical .ui-tabs-nav li a {
+	display:block;
+}
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active {
+	padding-bottom: 0;
+	padding-right: 0;
+	border-right-width: 1px;
+}
+.ui-tabs-vertical .ui-tabs-panel {
+	padding: 0em;
+	float: right;
+	width: 34em;
+}
+
+/* developer side coding */
+
+
+.form_ul{
+	overflow: hidden !important;
+	padding: 4px !important;
+	background: transparent !important;
+}
+.form_ul li{
+	border-radius: 6px;
+	margin: 8px 0 !important;
+	font-weight: normal !important;
+}
+
+.form_tab_anchor{
+	width: 100%;
+	display: inline-block;
+	outline: none !important;
+}
+
+.login_form{
+	text-align: center;
+	min-height: 100vh;
+	background: rgba(45, 52, 54,1.0);
+}
+
+.form{
+	display: inline-block;
+	text-align: initial;
+}
+
+.form_data{
+	min-height: 100% !important;
+	background: rgba(220, 221, 225,1.0);
+	display: block;
+	min-width: 100% !important;
+	border-radius: 10px;
+}
+
+.form_heading{
+	padding: 10px 0;
+	text-align: center;
+	margin: 0;
+	font-family: 'Bree Serif', Cursive;
+	letter-spacing: 3px;
+	font-size: 28px;
+}
+
+.form_title_logo{
+	width: 50px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.form1{
+	margin-top: 40px;
+}
+
+.input_block{
+	text-align: center;
+	margin: 20px 0;
+}
+
+.text_input{
+	background: transparent;
+	outline: none;
+	border: none;
+	border-bottom: solid 1px black;
+	min-width: 250px;
+	padding: 2px 5px 10px 5px;
+}
+
+.text_input:focus::placeholder{
+	opacity: 0.5;
+}
+
+.registration_date_block{
+	text-align: center;
+}
+
+.registration_date_block input{
+
+}
+
+#pickdate{
+	min-width: 250px !important;
+}
+
+#pickdate_btn{
+	position: absolute;
+}
+
+.center_block{
+	display: inline-flex;
+	max-width: 250px;
+}
+
+.submit_btn_block{
+	margin-top: 30px;
+	text-align: center;
+}
+
+.submit_btn, .signup_btn, .forget_pass_get_otp_btn, .forget_pass_submit_otp_btn, .forget_pass_submit_pass_btn{
+	min-width: 250px;
+	padding: 8px 5px;
+	border-radius: 10px;
+	border: none;
+	margin-bottom: 40px;
+	outline: none;
+	background-image: linear-gradient(to right, #4CB8C4 0%, #3CD3AD 51%, #4CB8C4 100%);
+	color: white;
+	font-family: monospace !important;
+	text-transform: uppercase;
+	font-size: 18px !important;
+	cursor: pointer;
+}
+
+.submit_btn:hover, .signup_btn:hover{
+	background-position: right center;
+}
+
+.form_back_btn{
+	text-align: right;
+	padding: 10px 20px;
+}
+
+.form_back_btn a{
+	text-decoration: none;
+	transition: all 0.2s ease-in-out;
+}
+
+.form_back_btn a:hover{
+	color: var(--theme-clr-red);
+}
+
+.help_section{
+	padding: 5px 10px;
+	font-size: 15px;
+}
+
+.help_section h2{
+	font-size: 20px;
+}
+
+.form_link{
+	text-decoration: none;
+	color: var(--theme-clr-red) !important;
+	transition: all 0.2s ease-in-out;
+}
+
+.form_link:hover{
+	color: var(--theme-clr-dark-yellow) !important;
+}
+
+.password_reset_success_block{
+
+}
+
+.password_reset_success_block #one{
+	text-align: center;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.password_reset_success_block #two{
+	text-align: center;
+}
