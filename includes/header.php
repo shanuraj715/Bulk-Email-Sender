@@ -5,7 +5,7 @@ class Header{
 	public function link_header_files(){ ?>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<link rel="stylesheet" type="text/css" href="<?php echo SITE_URL; ?>/css/fonts-awesome/css/all.min.css">
+		<link rel="stylesheet" type="text/css" href="https://projects.techfacts007.in/fontawesome/css/all.min.css">
 
 		<link rel="stylesheet" type="text/css" href="<?php echo SITE_URL; ?>/css/style.css">
 
