@@ -32,7 +32,7 @@ class Header{
 
 	public function link_imp_files(){ ?>
 
-		<link rel="stylesheet" type="text/css" href="<?php echo SITE_URL; ?>/css/fonts-awesome/css/all.min.css">
+		<link rel="stylesheet" type="text/css" href="https://projects.techfacts007.in/fontawesome/css/all.min.css">
 
 		<link rel="stylesheet" type="text/css" href="<?php echo SITE_URL; ?>/css/style.css">
 
